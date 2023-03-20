@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>4bf94e79-4e82-4ee2-848d-7112e006b344</ProjectGuid>
+    <ProjectGuid>70261ace-08f2-4073-a0d4-23c6ec53e5a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>sqlite1.py</StartupFile>
+    <StartupFile>sqlite2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>sqlite1</Name>
-    <RootNamespace>sqlite1</RootNamespace>
+    <Name>sqlite2</Name>
+    <RootNamespace>sqlite2</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="sqlite1.py" />
+    <Compile Include="sqlite2.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
