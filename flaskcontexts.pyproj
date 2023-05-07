@@ -2,15 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a350e4f7-dc56-4c36-87e9-0fd7b308284e</ProjectGuid>
+    <ProjectGuid>27c07d8e-e906-419e-8a49-b5fd3c94b8ce</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>flask.py</StartupFile>
+    <StartupFile>lesson6.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>flask</Name>
-    <RootNamespace>flask</RootNamespace>
+    <Name>flaskcontexts</Name>
+    <RootNamespace>flaskcontexts</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.10</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="flask.py" />
+    <Compile Include="flask1.py" />
+    <Compile Include="hooks.py" />
+    <Compile Include="lesson6.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
